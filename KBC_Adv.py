@@ -11,7 +11,7 @@ def ask_question():
     print(question)
     print("Your options are:", options)
     answer = input("Enter your answer: ")
-    if answer != options:
+    if answer not in options:
         print("Please choose from above options")
     else:
         if answer == "Delhi":
