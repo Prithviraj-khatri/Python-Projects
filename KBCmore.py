@@ -50,7 +50,6 @@ def question_3():
         else:
             print("Your answer is incorrect")
             time.sleep(1)
-            
 welcome()
 question_1()
 question_2()
