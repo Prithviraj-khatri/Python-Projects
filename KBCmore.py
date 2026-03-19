@@ -1,3 +1,4 @@
+#.
 import time
 def welcome():
     print("Welcome to KBC")
