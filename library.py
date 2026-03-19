@@ -33,7 +33,7 @@ class Student:
 if __name__ == "__main__":
     centralLibrary = Library(["Algorithms", "Django", "Clrs", "Python Notes"])
     student = Student()
-    # centraLibrary.displayAvailableBooks()
+    # centraLibrary.displayAvailableBooks().
     while(True):
         welcomeMsg = '''\n ====== Welcome to Prithvi Library ======
         Please choose an option:

@@ -24,7 +24,7 @@ def calculate_result(m1, m2, m3):
     return total, percentage, grade
 
 
-# Function to display result
+# Function to display result.
 def show_result(name, total, percentage, grade):
     print("\n----- RESULT -----")
     print(f"Name: {name}")
