@@ -1,4 +1,3 @@
-#.
 print("Gender finder")
 gender = input("Enter your gender: ")
 if gender == "Male":

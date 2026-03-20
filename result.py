@@ -1,4 +1,4 @@
-# Function to take student details
+# Function to take student details.
 def get_student_details():
     name = input("Enter student name: ")
     marks1 = int(input("Enter marks of Subject 1: "))

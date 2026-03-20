@@ -1,3 +1,4 @@
+#.
 import time
 print("Age Checker")
 time.sleep(2)

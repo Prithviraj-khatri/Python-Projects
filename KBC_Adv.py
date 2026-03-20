@@ -1,4 +1,4 @@
-#.
+
 import time
 def welcome():
     print("Hello welcome to the game")

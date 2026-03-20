@@ -1,4 +1,4 @@
-#.
+#..
 import time
 print("hello welcome to the game")
 time.sleep(2)

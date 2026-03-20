@@ -2,7 +2,7 @@ import random
 
 # Snake Water Gun
 def gameWin(comp, you):
-    # If two values are equal, declare a tie!
+    # If two values are equal, declare a tie!.
     if comp == you:
         return None
 

@@ -1,3 +1,4 @@
+#.
 import random
 computer = random.choice([0,1,2])
 user = input("enter your choice: ")

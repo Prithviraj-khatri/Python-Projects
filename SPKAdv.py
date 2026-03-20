@@ -1,6 +1,6 @@
 import random
 
-# Function to get user choice.
+# Function to get user choice..
 def get_user_choice():
     user = input("Enter your choice (s for stone, p for paper, k for knife): ")
     return user

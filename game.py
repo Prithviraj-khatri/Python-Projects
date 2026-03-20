@@ -1,4 +1,4 @@
-#.
+
 def game():
     return 44677
 
