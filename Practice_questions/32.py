@@ -10,4 +10,4 @@ def square_digit(num):
         result += str(int(char)**2)
 
     return result
-    #
+    
