@@ -26,4 +26,12 @@ The lowest index N where the side to the left of N is equal to the side to the r
 Note
 If you are given an array with multiple answers, return the lowest correct index.
 '''
+def find_even_index(arr):
+    for i in range (len(arr)):
+        left_sum = sum(arr[:i])
+        right_sum = sum(arr[i+1:])
 
+        if left_sum == right_sum:
+            return i
+        
+    return -1
