@@ -7,3 +7,15 @@ Examples
 [5, 8, 6, 3, 4]  =>  [3, 8, 6, 5, 4]
 [9, 8, 7, 6, 5, 4, 3, 2, 1, 0]  =>  [1, 8, 3, 6, 5, 4, 7, 
 """
+def sort_array(source_array):
+    odds = sorted([x for x in source_array if x %2 != 0])
+    
+    result = []
+
+    for num in source_array:
+        if num % 2 == 0:
+            result.append(num)
+        else:
+            result.append(odds.pop(0))
+
+    return result
