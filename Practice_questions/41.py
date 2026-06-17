@@ -34,3 +34,5 @@ def dig_pow(n,p):
         return total // n
     
     return -1
+
+#

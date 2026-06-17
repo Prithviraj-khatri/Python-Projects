@@ -24,3 +24,5 @@ def delete_nth(order,max_e):
             counts[num] = counts.get(num,0) + 1
 
     return result
+
+#
