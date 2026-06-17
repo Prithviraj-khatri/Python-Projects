@@ -20,3 +20,10 @@ Signature will always contain 3 numbers; n will always be a non-negative number;
 then return an empty array and be ready for anything else which is not clearly specified ;)
 """
 
+def tribonacci(signature, n):
+    result = signature[:n]
+
+    while len(result) < n:
+        result.append(sum(result[-3:]))
+
+    return result
