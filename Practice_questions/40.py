@@ -25,4 +25,3 @@ def delete_nth(order,max_e):
 
     return result
 
-#
