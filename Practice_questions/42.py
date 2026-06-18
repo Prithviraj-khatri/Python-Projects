@@ -27,3 +27,5 @@ def tribonacci(signature, n):
         result.append(sum(result[-3:]))
 
     return result
+
+#

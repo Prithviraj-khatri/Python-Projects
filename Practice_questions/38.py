@@ -19,3 +19,4 @@ def sort_array(source_array):
             result.append(odds.pop(0))
 
     return result
+#
