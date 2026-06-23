@@ -28,4 +28,3 @@ def tribonacci(signature, n):
 
     return result
 
-#
